@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'HM Sans';
+    src: url('HMSans-BoldItalic.woff2') format('woff2'),
+        url('HMSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Sans';
+    src: url('HMSans-Italic.woff2') format('woff2'),
+        url('HMSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Sans';
+    src: url('HMSans-Bold.woff2') format('woff2'),
+        url('HMSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Sans';
+    src: url('HMSans-SemiBold.woff2') format('woff2'),
+        url('HMSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Sans';
+    src: url('HMSans-SemiBoldItalic.woff2') format('woff2'),
+        url('HMSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Sans';
+    src: url('HMSans-Regular.woff2') format('woff2'),
+        url('HMSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Serif';
+    src: url('HMSerif-Italic.woff2') format('woff2'),
+        url('HMSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Sans';
+    src: url('HMSans-LightItalic.woff2') format('woff2'),
+        url('HMSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Sans';
+    src: url('HMSans-Light.woff2') format('woff2'),
+        url('HMSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Serif';
+    src: url('HMSerif-SemiboldItalic.woff2') format('woff2'),
+        url('HMSerif-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Serif';
+    src: url('HMSerif-Regular.woff2') format('woff2'),
+        url('HMSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HM Serif';
+    src: url('HMSerif-SemiBold.woff2') format('woff2'),
+        url('HMSerif-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

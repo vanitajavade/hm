@@ -1,0 +1,85 @@
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,
+var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {margin: 0;padding: 0;border: 0;outline: 0;}
+header,footer,article,section,hgroup,nav,figure {	display: block;	margin: 0px;	padding: 0px;}
+img{border: 0 none;	height: auto;	max-width: 100%;	vertical-align: middle;	transition: all 0.5s ease-in-out 0s;}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: normal;
+	color: #222222;
+	font-family: 'HM Sans';
+	font-weight: 400;
+	background: #faf9f8;
+}
+
+ul li {
+	list-style: none;
+}
+
+p{font-size: 16px; line-height: 30px;}
+
+.container{width: auto; max-width: 1200px;}
+
+.hm_header{width: 100%; padding:40px 0 45px;}
+.hm_header .container{ width: auto; max-width:1440px;}
+.hm_header .hm_logo img{max-width: 90px; margin-bottom: 35px;}
+.hm_nav nav{width: 100%;}
+.hm_nav nav .nav-item{margin:0 19px;}
+.hm_nav nav .nav-link{padding:0; font-weight: normal; font-size: 20px; line-height: 20px; color: #222222; position: relative;}
+.hm_nav nav .nav-link:before{position: absolute; left: 0; bottom: -7px; width: 0; height: 1px; background-color:#222222; content: ""; transition:all 0.4s ease 0s;}
+.hm_nav nav .nav-link:hover:before{width: 100%;}
+.hm_nav nav .active .nav-link:before{width: 100%;}
+.hm_header .hm_text a{color:#222222;}
+
+.hm_banner{width:100%; position: relative;}
+.hm_banner img{width:100%;}
+.hm_banner h1 {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    max-width: 640px;
+    font-size: 42px;
+    color: #D6001C;
+    left: 0;
+    right:0;
+    margin:auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.hm_about_in{width:100%; float:left;  margin: 45px 0; background: #fff; padding: 50px 15px;}
+.hm_about_in p{color:#000; max-width: 720px; margin: auto;}
+
+.hm_journey .hm_join{width:100%; background: #fff;}
+.hm_journey .member_j{width:100%; background:#F3EDDF; padding: 50px 15px; margin-bottom:50px;}
+.hm_journey .member_j h1{font-size: 42px; margin-bottom: 5px; color:#E50010; font-weight: 600;}
+.hm_journey .member_j p{color:#000; margin-bottom:20px;}
+.hm_journey .member_j .member_btn{color:#000; font-size: 18px;}
+.hm_journey .member_j .member_btn img{margin-left: 15px; width:12px;}
+
+.hm_member{width:100%; background: #F3EDDF; padding: 70px 0 120px; text-align: center;}
+.hm_member h2{font-size: 46px; color:#E50010; font-weight: 600; margin-bottom: 100px;}
+.hm_member .member_cell{background: #fff;}
+.hm_member .member_cell .member_img img{width:100%;}
+.hm_member .member_cell .member_content{padding: 10px 10px 30px;}
+.hm_member .member_cell .member_content .member_hd{width: 124px;margin: 0 auto 10px;}
+.hm_member .member_cell .member_content h4{font-size: 20px; font-weight: 600; min-height: 100px;}
+.hm_member .member_cell .member_content .member_btn{font-weight: 600;color: #222222;}
+.hm_member .member_cell .member_content .member_btn img{width:15px; margin:-4px 0 0 10px;}
+
+.hm_footer{ width: 100%;background: #E4E4E4; padding: 50px 0 40px; text-align: center; }
+.hm_footer .hm_social{ width: 100%; margin: 0 0 40px;}
+.hm_footer .hm_social li{display: inline-block; vertical-align: middle; margin: 0 33px;}
+.hm_footer .hm_social li a:hover{opacity: 0.8;}
+.hm_footer .hm_social li a img{max-width: inherit; max-height: inherit;}
+.hm_footer p{ width: 100%; max-width: 770px; color: #222222; font-weight: normal; font-size: 12px; line-height: 18px; letter-spacing: 1px; margin: 0 auto 25px;}
+.hm_footer h5 a{ width: 100%; display: block; text-transform: uppercase; color: #222222; font-weight: normal; font-size: 12px; line-height: 18px; letter-spacing: 1px; margin: 0 0 40px;}
+.hm_footer .ftr_him{ width: 100%; text-transform: uppercase; color: #222222; font-weight: normal; font-size: 14px; line-height: 20px; letter-spacing: 1.5px; margin: 0 0;}
+.hm_footer .ftr_him img{display: inline-block; vertical-align: middle; margin: 0 16px;}

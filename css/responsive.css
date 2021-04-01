@@ -1,0 +1,69 @@
+@media (max-width: 1300px){
+
+}
+
+@media (max-width: 1024px){
+p{line-height: 26px;}
+.hm_nav nav .nav-link{font-size: 18px;}
+.hm_header .hm_logo img{margin-bottom:25px;}
+.hm_header{padding: 20px 0 35px;}
+.hm_banner h1{font-size: 36px;}
+.hm_about_in{padding:35px 15px;}
+.hm_journey .member_j{padding:40px 15px;}
+.hm_journey .member_j h1{font-size:38px;}
+.hm_member h2{font-size: 40px; margin-bottom: 50px;}
+.hm_member{padding: 50px 0 80px;}
+.hm_member .member_cell .member_content h4{font-size: 18px;}
+.hm_footer .hm_social li{margin:0 25px;}
+}
+
+@media (max-width: 767px){
+.hm_nav {display: none;}
+.hm_header {padding: 14px 0;}
+.hm_header .hm_text{float: right;text-align: right;}
+.hm_header .hm_logo img {max-width: 33px;}
+.a_vlg {text-indent: -9999px;background-color: transparent !important;width: 21px;padding: 0;background-size: 100% auto;
+	background-image: url(../images/hammer.svg);background-position: center center;height: 26px;}
+.hm_header{position: relative;}
+.burgermenu{display: block; height: 12px; position: absolute; left: 18px; width: 20px; top: 50%; transform: translate(0,-50%); }
+.burgermenu span{position: relative;  border-radius: 10px; width: 20px;height: 1px; background: #222222; display: inline-block; vertical-align: top;}
+.burgermenu span:before{position: absolute; width: 100%;border-radius: 10px;height: 1px; background: #222222; left: 0; top: 6px; content: "";}
+.burgermenu span:after{position: absolute; width: 100%;border-radius: 10px;height: 1px; background: #222222; left: 0; bottom: -12px; content: "";}
+.hm_logo {padding-left: 50px;}
+
+.a_top{display: flex; flex-wrap: wrap; justify-content: center; align-content: center; width: 100%; height: 100px; font-weight: normal; font-size: 16px; line-height: normal; color: #222222; letter-spacing: 1px;}
+.hm_nav {transition:all 0.4s ease 0s; overflow: auto; display: block;position: fixed;left: -100%;top: 0;height: 100vh;width: calc(100% - 32px);z-index: 9999;padding: 0;background: #FAF9F8;}
+.hm_nav.show{left: 0;}
+.overlay_menu.show{visibility: visible; opacity: 1;}
+.hm_nav nav{padding: 30px 18px 50px;}
+.hm_nav nav .nav-link {font-size: 17px;line-height: 17px; padding-right: 20px; background: url(../images/r-arr.svg) no-repeat right center; background-size: 12px auto; letter-spacing: 1px;}
+.hm_nav h2{background-color: #F4DCD6; padding: 17px 18px 10px; font-weight: normal; color: #222222; font-size: 17px; line-height: 17px; margin: 0; letter-spacing: 1.7px;}
+.hm_nav nav ul{flex-wrap: wrap;}
+.hm_nav nav ul .nav-item{width: 100%; margin: 0 0 30px;}
+.hm_nav nav .nav-link::before {	display: none !important;}
+.hm_nav nav .active .nav-link{	color: #F1C2C1;}
+.hm_nav .a_vlg{background: #F1C2C1 url(../images/hammer.svg) no-repeat 42px center !important; background-size: 21px auto; text-transform: none; font-weight: normal; font-size: 15px; height: 45px; letter-spacing: 1.15px;color: #222222; align-items: center; text-indent: 0; width: calc(100% - 36px); padding: 0 15px 0 43px; display: flex; justify-content: center; margin: 0 18px;}
+.overlay_menu{position: fixed; cursor: pointer; left: 0; top: 0; width: 100%; height: 100vh; background-color: rgba(34, 34, 34, 0.5); z-index: 999;visibility: hidden; opacity: 0;transition:all 0.4s ease 0s;}
+.overlay_menu img{position: absolute;right: 7px; top: 50%; width: 18px; transform: translate(0,-50%);}
+.hm_header .hm_logo img {
+    margin-bottom: 0;
+}
+.hm_logo{text-align: left !important;}
+
+.a_top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	height: 100px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: normal;
+	color: #222222;
+	letter-spacing: 1px;
+}
+.a_top:hover{color:#222222;}
+.md-block{display: none !important;}
+.hm_header .row{flex-direction: row-reverse;}
+}
